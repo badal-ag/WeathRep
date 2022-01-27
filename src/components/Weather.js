@@ -33,7 +33,7 @@ export default function Weather() {
             setTempInfo(myNewWeatherInfo);
 
         } catch(error) {
-            console.log(error);
+            alert("OOPS! City not Found. Kindly check the Spelling and Try Again.")
         }
     };
 
